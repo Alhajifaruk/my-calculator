@@ -1,0 +1,44 @@
+body{
+    background: white;
+}
+table{
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 10px solid black;
+    margin-top: 45%;    
+    border-spacing: 5px;
+}
+td{
+    padding: 5px;
+}
+input::placeholder{
+    color: white;
+}
+input{
+    width: 100%;
+    padding: 0 10px;
+    height: 100px;
+    font-size: 34px;
+    text-align: right;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+    outline: none;
+    border: unset;
+    border-radius: 5px;
+}
+button{
+    background: black;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: unset;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+button:hover, button:active {
+    background: #333;
+}
