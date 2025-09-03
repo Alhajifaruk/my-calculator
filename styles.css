@@ -1,12 +1,15 @@
 body{
     background: white;
+    margin: 0;
+    padding: 0;
 }
 table{
     border-collapse: separate;
     border-radius: 10px;
     border: 10px solid black;
-    margin-top: 45%;    
+    width: 300px;
     border-spacing: 5px;
+    margin: 10% auto;
 }
 td{
     padding: 5px;
@@ -29,7 +32,7 @@ input{
 }
 button{
     background: black;
-    width: 80px;
+    width: 60px;
     height: 60px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -41,4 +44,87 @@ button{
 }
 button:hover, button:active {
     background: #333;
+}
+
+@media(min-width:400px){
+    table{
+        width: 90%;
+        margin: 5% auto;
+    }
+    input{
+        height: 80px;
+        font-size: 28x;
+    }
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+    }
+    
+}
+@media(min-width: 375px){
+    table{
+        width: 250px;
+        margin: 8px auto;
+    }
+    input{
+        height: 100px;
+        font-size: 24px;
+    }
+    button{
+        width: 70px;
+        height: 70px;
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 320px){
+    table{
+        width: 60%;
+        margin: 8px auto;
+        border-spacing: 2px;
+        border: 5px solid black;
+    }
+    input{
+        height: 80px;
+        font-size: 24px;
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+}
+@media(min-width: 768px){
+   table{
+        width: 600px;
+        margin: 10% auto;
+        border-spacing: 20px;
+        border: 15px solid black;
+   }
+   input{
+       height: 190px;
+       font-size: 80px;
+   }
+   button{
+       width: 140px;
+       height: 140px;
+       font-size: 44px;
+}
+@media(min-width: 1024px){
+    table{
+        width: 800px;
+        margin: 15% auto;
+        border-spacing: 20px;
+        border-collapse: separate;
+    }
+    input{
+        height: 250px;
+        font-size: 100px ;
+    }
+    button{
+        width: 180px;
+        height: 180px;
+        font-size: 50px;
+    }
 }
